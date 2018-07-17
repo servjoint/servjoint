@@ -1,0 +1,378 @@
+#bg{
+  background-color: black;
+  background-image: url("./img/ico.jpg");
+  background-repeat: repeat-y;
+  background-position-x: 50%;
+  background-position-y: 60%;
+  
+}
+
+#header_name{
+	font-size: 84px;
+	
+}
+
+.smallText{
+	font-size: 24px;
+	
+}
+
+.page-header {
+  color: cyan;
+  margin-left: 80px;
+  border-bottom-color: snow;
+  border-bottom-style: solid;
+  margin-right: 0px;
+}
+
+.main-activity{
+	border-left-style: solid;
+	border-left-color: snow;
+	margin-left: 80px;
+	margin-right: 197;
+	border-right-style: solid;
+	border-right-color: snow;
+	border-bottom-style: solid;
+	border-bottom-color: snow;
+	background-image: url("./img/ico.jpg");
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 964px;
+}
+
+.current{
+	text-shadow: 0px 1px green;
+}
+
+.main-activity:hover{
+	background-color: black;
+	background: solid;
+	opacity: 0.8;
+}
+
+#btnSub{
+	border-style: none;
+	border-bottom-style: solid;
+	border-bottom-color: orangered;
+	margin-left: 30px;
+	margin-bottom: 5px;
+	background-color: inherit;
+	color: maroon;
+}
+
+.Accounts{
+	margin-left: 60px;
+	background-color: inherit;
+	margin-right: 60px;
+	width: fixed;
+}
+
+.services{
+	margin-left: 60px;
+	background-color: lightgrey;
+	margin-right: 60px;
+	width: fixed;
+}
+
+.service-name{
+	margin-left: 20px;
+	width: fixed;
+	
+}
+
+#serviceForm{
+	margin-bottom: -10px;
+	margin-left: 30px;
+	border-bottom-style: solid;
+	margin-right: 130px;
+	border-bottom-color: navy;
+}
+
+#AccountAct{
+	border-style: solid;
+	border-color: darkcyan;
+	margin: 10px;
+	margin-bottom: 15px;
+	opacity: 0.8;
+}
+
+#AccountAct{
+	opacity: 1;
+	text-align: center;
+}
+
+#NotFound{
+	background-color: thistle;
+	color: orangered;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 32px;
+}
+#adminDeButton{
+	border-style: none;
+	color: Darkred;
+	font-size: 22px;
+	background-color: inherit;
+	margin-left: 300px;
+}
+
+#adminButton{
+	border-style: none;
+	color: purple;
+	font-size: 22px;
+	background-color: inherit;
+}
+
+#Found{
+	background-color: thistle;
+	color: orangered;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+
+#textAcc{
+	margin-left: 5px;
+	vertical-align: center;
+	text-transform: full-width;
+	
+}
+
+#Acc{
+	padding: 60px;
+	color: orangered;
+	text-decoration: none;
+	
+}
+
+#btnSubAcc{
+	text-transform: full-width;
+	color: orangered;
+	padding: 60px;
+	border-style: solid;
+	border-color: seashell;
+	border-radius: 20%;
+	background-color: inherit;
+	margin-left: 65px;
+}
+
+#btnSubAcc:hover{
+	background-color: darkgreen;
+	font-size: 14px;
+}
+
+#accDec{
+	border-style: solid;
+	border-top-left-radius: 25%;
+	border-top-right-radius: 25%;
+	border-color: thistle;
+	background-color: seashell;
+	color: red;
+	font-size: 17px;
+}
+
+#btnDeact, #btnDeactNO{
+	border-style: none;
+	background-color: inherit;
+}
+
+#btnDeact{
+	color: darkgreen;
+}
+#btnDeactNO{
+	color: RED;
+}
+
+#accDecData{
+	border-style: solid;
+	border-color: thistle;
+	background-color: seashell;
+	color: purple;
+}
+
+#addr{
+	
+	width: 260px; 
+	resize: none;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+#NoAcc{
+	color: seagreen;
+	text-align: center;
+	
+}
+
+.msgText{
+	text-align: left;
+	margin-left: 10px;
+}
+
+.msgText:hover{
+	opacity: 1.0;
+}
+
+#btnSend{
+	color: green;
+	background-color: lightgrey;
+	background-color: inherit;
+	border-style: solid;
+	width: 250px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 20px;
+	background-color: darkgrey;
+}
+
+#btnSend:hover{
+	opacity: none;
+}
+
+#MsgRec{
+	background-color: lightgray;
+	background-color: inherit;
+	border-style: none;
+	width: 810px;
+	height: 120px;
+	resize: false;
+	margin-right: 10px;
+	color: snow;
+	color: chocolate;
+}
+
+.user_details{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+#tableText{
+	vertical-align: center;
+	
+}
+
+.subm{
+	text-align: center;
+	color: darkgreen;
+}
+
+#btnSubm{
+	color: darkgreen;
+	border-style: none;
+	background-color: inherit;
+	font-size: 15px;
+}
+
+#btnSubm:hover{
+	color: darkgreen;
+	border-style: solid;
+	border-color: snow;
+	border-radius: 10px;
+	font-size: 15px;
+	background-color: lightgrey;
+}
+
+#MsgRecRe{
+	background-color: lightgray;
+	background-color: inherit;
+	border-style: none;
+	width: 810px;
+	height: 120px;
+	resize: false;
+	margin-right: 10px;
+	color: snow;
+	color: chocolate;
+}
+
+#MsgRec:hover{
+	opacity: 1.0;
+	background-color: lightgray;
+}
+#Proof{
+	border-style: solid;
+	border-color: red;
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+}
+
+#servEdit{
+	width: 250px;
+	border-style: none;
+	background-color: inherit;
+	margin-top: 15px;
+	border-bottom-style: solid;
+	border-bottom-color: darkcyan;
+	color: orangered;
+}
+
+#prof{
+	margin-left: 600px;
+	color: darkgoldenrod;
+}
+.page-header-UserLogger{
+	
+}
+
+#serviceLink{
+	border-style: none;
+	background-color: inherit;
+	color: fuchsia;
+}
+
+
+#serviceLink:hover
+{
+	margin-left: 5px;
+	color: darkmagenta;
+	text-decoration: underline;
+}
+
+.logged-user{
+	margin-left: 775px;
+	color: cyan;
+}
+
+.logout{
+	color: red;
+	text-decoration: none;
+}
+
+.logout:hover{
+	text-decoration: underline;
+	text-shadow: 1px 1px darkgoldenrod;
+}
+
+.fixed-cont{
+	@position: fixed;
+	background-color: black;
+	width: 1050px;;
+}
+
+#menu{
+	color: cyan;
+	margin-left: 80px;
+	background: solid;
+	background-color: black;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: snow;
+}
+
+#menu-cont{
+	color: darkcyan;
+	text-decoration: none;
+	padding-left: 20px;
+	opacity: 0.5;
+}
+
+#menu-cont:hover{
+	opacity: 1;
+}

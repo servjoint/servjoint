@@ -1,0 +1,400 @@
+#bg{
+  background-color: black;
+  background-color:rgb(232,228,228); 
+ 
+  /* opacity: 0.8; */
+  /*background-image: url("./img/ico3.png");*/
+  background-repeat: repeat-y;
+  background-position-x: 50%;
+  background-position-y: 60%;
+  background-color: dimgrey;
+}
+
+#link{
+	color: darkcyan;
+	margin: 13px;
+	text-decoration: none;
+}
+
+#recomand{
+	color: aliceblue;
+	margin: 10px;
+}
+
+#txtServName{
+	margin-left: 11px;
+	width: -moz-available;
+}
+
+#header_name{
+	font-size: 84px;
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+.smallText{
+	font-size: 24px;
+	
+}
+
+.page-header {
+  color: cyan;
+  padding-left: 100px;
+
+  
+}
+
+.fixed-cont{
+	@margin-left: 100px;
+	@position: fixed;
+	
+	background-color: black; 
+	opacity: 0.8;
+    border-color: black;
+	
+	
+}
+
+.serv{
+	margin-left: 100px;
+	border-color: seashell;
+	border-style: solid;
+	background-color: black;
+	margin-right: 100px;
+	color: seashell;
+	background-color: darkgrey;
+}
+
+#menu{
+/*	color: cyan; */
+	color: darkgrey;
+	background: solid;
+	background-color: black;
+	
+    background-color:rgb(232,228,228); 
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+    
+}
+
+#menu-cont{
+/*	color: cyan; */
+	color: black; 
+	text-decoration: none;
+	padding-left: 20px;
+/*	opacity: 0.5; */
+	text-align: center;
+	
+}
+
+.servAdd{
+	color: red;
+	margin: 10px;
+}
+
+#btnSub{
+	color: green;
+	border-color: lightgray;
+	text-align: center;
+}
+
+#menu-cont:hover{
+	opacity: 1;
+}
+
+a#menu-cont:active{
+		background-color: aliceblue;
+	}
+
+.logged-user{
+	color: snow;
+	text-align: right;
+	position: sticky;
+}
+
+.serv{
+	margin-left: 210px;
+	cursor: pointer;
+	margin-right: 160px;
+}
+
+.servText{
+	margin-left: 10px;
+	
+}
+
+.msgText{
+	text-align: left;
+	margin-left: 10px;
+}
+
+.WriteMsg{
+	margin-left: 100px;
+	border-color: seashell;
+	border-style: solid;
+	background-color: black;
+	margin-right: 100px;
+	color: seashell;
+	background-color: darkgrey;
+	margin-left: 210px;
+	cursor: pointer;
+	margin-right: 160px;
+	text-align: right;
+}
+
+#btnWrite{
+	color: green;
+	background-color: lightgrey;
+	background-color: inherit;
+	border-style: none;
+}
+
+#btnSend{
+	color: green;
+	background-color: lightgrey;
+	background-color: inherit;
+	border-style: solid;
+	width: 300px;
+	margin-left: 150px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+#txtDesc{
+	width: 550px;
+	height: 80px;
+	resize: false;
+	background-color: inherit;
+}
+
+#Msg{
+	background-color: lightgray;
+	background-color: inherit;
+	border-style: solid;
+	width: 810px;
+	height: 200px;
+	resize: false;
+	margin-right: 10px;
+	color: snow;
+	color: seashell;
+}
+
+#MsgRec{
+	background-color: lightgray;
+	background-color: inherit;
+	border-style: none;
+	width: 810px;
+	height: 120px;
+	resize: false;
+	margin-right: 10px;
+	color: snow;
+	color: seashell;
+	color: blue;
+    width: -webkit-fill-available;
+}
+
+.msgDialog{
+	margin-left: 100px;
+	border-color: seashell;
+	border-style: solid;
+	background-color: black;
+	margin-right: 100px;
+	color: seashell;
+	background-color: darkgrey;
+	margin-left: 210px;
+	cursor: pointer;
+	margin-right: 180px;
+	position: fixed;
+}
+
+#btnCnl,#btnEdit{
+	border-style: none;
+	color: snow;
+	color: seashell;
+	background-color: darkgrey;
+}
+
+.logged-users:hover{
+	text-decoration: underline;
+}
+.logout{
+	color: red;
+	text-decoration: none;
+}
+
+.logout:hover{
+	color: red;
+	text-shadow: 0px 1px maroon;
+	text-decoration:underline;
+}
+
+#pp{
+	height: 180;
+	width: 180;
+	border-radius: 10px;
+	margin-left: 13px;
+}
+
+.pphover:hover{
+	border-radius: 0px;
+}
+
+div.info{
+	border-style: dotted;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#txtInfo{
+	border-radius: 5px;
+	/* border-color: darkblue; */
+	border-color: cyan;
+	margin-left: 10px;
+	margin-right: 10px;
+	/*width: 300px; */
+	width: -webkit-fill-available;
+	margin-top: 5px;
+}
+
+
+
+@media (max-width: 1000px) 
+{
+	a#menu-cont:hover{
+		background-color: aliceblue;
+	}
+	
+	a#menu-cont:active{
+		background-color: aliceblue;
+	}
+	
+	#menu-cont{
+		border-bottom-style: double;
+	}
+	
+	#bg{
+		background-image: none;
+	}
+	
+	nav.menu{
+		display: grid;
+	}
+	
+	div.page-header{
+		
+	}
+	
+	div.first-footer{
+		
+	}
+	
+	#tblprop{
+		width: auto;
+	}
+	
+	section.middle-section{
+		margin-left: 9px;
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	
+	div.profile{
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	div.profile-card{
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	div.info{
+		border-style: dotted;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.writeMsg{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.serv{
+		margin-left: 0px;
+		margin-right: 0px;
+		cursor: grab;
+		text-emphasis: blue;
+		width: inherit;
+	}
+	
+	.msgText{
+		font-size: 11px;
+		
+	}
+	
+	#Msg{
+		width: 245px;
+		height: 100px;
+	}
+	
+	#msgRec{
+		width: 250px;
+		width: -moz-available;
+	}
+	
+	#txtDesc{
+		width: 245px;
+		height: 120px;
+	}
+	
+	#txtReg{
+		width: auto;
+	}
+	
+	#btnNext{
+		margin: 2px;
+	}
+	
+	#btnSend{
+		width: 180px;
+		margin-left: -78px;
+	}
+	
+	#txtInfo{
+		border-radius: 5px;
+		border-color: cyan;
+		margin-left: 10px;
+		margin-right: 10px;
+		width: -moz-available;
+		margin-top: 5px;
+	}
+	
+	#pp{
+		height: 80;
+		width: 80;
+		border-radius: 10px;
+		margin-left: 5px;
+		border-color: red;
+	}
+	
+	#hrpp{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	div.msgDialog{
+		position: unset;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}

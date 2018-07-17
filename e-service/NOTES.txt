@@ -1,0 +1,13 @@
+NOTES:
+--- service provider seekers ----
+* Categorise with Provinces. eg. Gauteng (Pretoria, Joburg, etc), Free State...
+* Search with city
+* Complain page : include Message, Service Provider (Name, id, email, contact details)
+
+-- Service Provider ---
+* Add a picture of the service equipment that will be used.
+
+
+
+** make a request contact details of a Service Provider that the seeker will click
+   will reflect to us, which service prover is in demand **
