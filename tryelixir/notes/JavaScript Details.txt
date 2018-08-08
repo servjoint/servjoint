@@ -1,0 +1,21 @@
+Please do the following JavaScript, anyhow you want, even with AJAX or Angular its ohkay...
+
+					`Registration.html
+-----------------------------------------------------------------------------------------------
+- Validate password and confirmation password
+- Password must contain at least 1 uppercase, lowercase and a number
+- password must be between 6 - 16 in length
+- Email must contain @ sign
+- Validate ID number {will send the math algorythm of it}
+- Enable Create Account once the Terms and Condition checkbox is ticked {true} else disable it
+------------------------------------------------------------------------------------------------
+
+=================================================================================================
+					`Login.html
+=================================================================================================
+- if username/email is empty and "login" is clicked, show a error message 
+	stating that username/email shouldnt be empty
+- same as password...
+-------------------------------------------------------------------------------------------------
+
+I'm still busy with other pages, will review on Thursdays and Mondays

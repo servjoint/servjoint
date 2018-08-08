@@ -1,0 +1,875 @@
+div.page-header{
+  background-color:rgb(232,228,228);
+  background-color: black;
+  padding-bottom: 10px;
+/*  margin: 50px 100px 20px; */
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#frmSearch{
+	margin-left: 330px;
+	color: #2a3855;
+}
+
+/*
+.page-header:hover{
+	color: red;
+	font-size: 30px;
+}
+*/
+
+#menu-items:hover{
+	background-color: darkgrey;
+}
+
+
+.panel{ 
+	margin-bottom: 23px;
+	background-color: #ffffff;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.panel-default {
+border-color: #dddddd;
+}
+
+.panel {
+border: none;
+border-radius: 2px;
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+*:before, *:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#btnPro{
+	background-color: inherit;
+	border-style: none;
+	color: red;
+	
+}
+#headerSearch{
+	color: darkred;
+	height: 30px;
+}
+
+#btnSearch{
+	border-radius: 20px;
+	width: 220px;
+	color: darkgreen;
+	border-color: red;
+	margin-top: 5px;
+	padding: 15px;
+	text-align: center;
+}
+
+#btnSearch:hover{
+	background-color: darkgreen;
+	color: red;
+}
+
+#txtSearch{
+	border-color: blue;
+	border-bottom-color: darkred;
+	border-radius: 20px;
+    text-align-last: center;
+	height: 60px;
+	width: 220px;
+	padding: 10px;
+	color: #2a3855;
+}
+
+
+
+div.mini-header-div{
+    
+	margin: 20px 100px 10px;
+	
+	
+	background-color: rgb(232,228,226);
+	
+	/*background-color: Black; */
+	 font-family: Blackadder;
+	font-size: 24px;
+	text-align: center;
+}
+
+#hrprof{
+	border-color: crimson;
+	margin: 4px;
+}
+
+#tblprof{
+	padding: 10px;
+}
+
+#tblpadding{
+    padding: 20px;
+}
+
+div.main-activity{
+
+	/*background-color: Black;*/
+	text-align: center;
+}
+
+#main-activity{
+	
+	
+}
+
+.panel-body{
+		
+		text-align: center;
+}
+
+#main-activity:hover{
+	opacity: 1;
+}
+
+div.main-activity:hover{
+	opacity: 1;
+	
+}
+
+section.inline-all{
+	
+	height: auto;
+	@width: 1080px;
+	display: flex;
+	/*background-color: Black;*/
+}
+
+
+
+div.menu-items{
+	text-align: center;
+	background-color: rgb(232,228,226);
+	margin: 20px 100px 10px;
+}
+
+.left-section{
+	text-align: center;
+	color: lightgray;
+	margin: 0px 0px 10px 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: -moz-available;
+}
+
+section.middle-section{
+	background-color: rgb(232,228,226);
+	padding-right: 44px;
+	padding-right: 151px;
+    padding-left: 105px;
+	text-align: center;
+	border-right-color: lightgrey;
+	border-right-style: solid;
+	height: auto;
+	text-align: center;
+	border-right-width: 1px;
+	margin: 20px 100px 10px; 
+	/*background-color: Black;*/
+}
+
+section.middle-sectionBS{
+	background-color: rgb(232,228,226);
+	
+	text-align: center;
+	border-right-color: lightgrey;
+	border-right-style: solid;
+	height: auto;
+	text-align: center;
+	border-right-width: 1px;
+	margin: 20px 100px 10px; 
+	/*background-color: Black;*/
+/*	margin: 20px 0px 10px 50px; */
+}
+
+
+small.smallText{
+	/* font-style: italic;
+	 font-family: Blackadder ITC; */
+	
+}
+
+small{
+	text-shadow:1px 1px lightblue;
+}
+
+marquee{
+	color: darkred;
+	text-shadow: 4px 5px lightred;
+	margin-right: -121px;
+    margin-left: -20px;
+}
+
+a{
+	text-decoration: none;
+	color: darkgreen;
+}
+
+a:hover{
+	text-decoration: none;
+	text-shadow: 1px 1px gold;
+}
+
+.menu{
+	color: darkgreen;
+}
+
+.submenu{
+	color: lightgreen;
+}
+
+div.first-footer{
+	
+	text-shadow: 1px 1.5px lightgreen;
+	background-color: rgb(192, 186, 184);
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin: 20px 100px 10px;
+}
+
+div.profile{
+	border-style: solid;
+	
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 20px;
+	color: BLACK;
+	border-color: rgb(232,228,226);
+/*    background-color: rgb(232,228,226); */
+
+}
+
+div.profile-card{
+	border-style: solid;
+	border-color: inherit;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 20px;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: BLACK;
+	border-color: rgb(232,228,226);
+}
+
+/* upload  #servOff */
+#servOff{
+	/*
+    padding-bottom: 0px;
+    padding-top: -14px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-right: 16px;
+    color: BLACK;
+    background: grey;
+	*/
+	margin-top: 9px;
+	margin-bottom: -10px;
+	margin-left: 5px;
+	margin-right: -44px;
+	padding-left: 5px;
+	color: black; 
+}
+
+/*  upload pp   */
+#pp{
+	box-shadow: 11px 10px 1px -4px darkgrey;
+	padding-left: 5px;
+	/*border-radius: 20px; */
+	margin-top: 10px;
+}
+
+div.inner-profile{
+	text-align: left;
+}
+
+#noB{
+	Border-style: none;
+	color: black;
+    background-color: inherit
+}
+
+#noB:hover{
+	text-decoration: underline;
+	text-shadow: 2px 2px lightgreen;
+}
+
+#tblCity{
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+#tblCity:hover{
+	text-shadow: 1px 1px darkred;
+}
+
+#noBk{
+	border-style: none;
+	background-color: inherit;
+}
+
+.ServDiv{
+	background-color: darkgrey;
+	width: max-content;
+	margin: auto;
+}
+
+#noS{
+	color: darkred;
+}
+
+#fundAgent{
+	color: goldenrod;
+}
+
+#agentHeader{
+	color: darkred;
+}
+
+#agentData{
+	color: #333;
+	text-shadow: 1px 1px lightblue;
+}
+
+#redir{
+	border-style: none;
+	color: inherit;
+	text-decoration: underline;
+	background-color: rgb(232,228,226);
+	background-color: inherit;
+}
+
+#hRuler{
+	border-color: goldenrod;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+#Sname{
+	text-shadow: 1px 1px darkred;
+	color: darkgrey;
+	opacity: none;
+}
+
+#Sname:hover{
+	color: red;
+	text-shadow: 0.5px 0.5px lightblue;
+	text-decoration: underline;
+}
+
+#tblWidth{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+#pic{
+	/*border-radius: 20px; */
+	padding-left: 15px;
+	height: 190px;
+	width: 180px
+}
+
+#tblW{
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+/*   upload  tblprop */
+#tblprop{
+	background-color: grey;
+	text-align: center;
+	width: auto;
+	margin: 10px;
+	/*border-radius: 20px; */
+}
+
+#pp{
+	height: 190px;
+	width: 180px
+}
+
+#noBk:hover{
+	text-shadow: 1px 1px darkred;
+}
+
+#tblCity:hover{
+	background-color: lightgrey;
+	color: darkgrey;
+	text-shadow: 1px 1px darkred;
+
+}
+
+div.second-footer{
+/*	background-color: rgb(153, 151, 153); */
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: darkgreen;
+	margin: 20px 100px 10px;
+}
+
+section.footer-sec{
+	border-bottom-style: solid;
+	padding-right: 25px;
+	padding-left: 5px;
+	text-align: center;
+	border-bottom-color: rgb(153, 151, 153);
+	
+}
+
+.footer-sec-detail{
+	text-align: center;
+}
+div.connect{
+		margin-top: 5px;
+		margin-bottom: 5px;
+}
+
+#extlink{
+	width: 40px;
+	opacity: 0.8;
+	border-radius: 25px;
+}
+
+#carousel-1{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.carousel-indicators li{
+	background-color: rebeccapurple;
+}
+
+li.active{
+	/*background-color: darkgreen; */
+}
+
+#menu-items{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#menu-items.active{
+	background-color: darkgrey;
+	color: darkgreen;
+	text-decoration: underline;
+}
+
+#menu-items:active{
+	background-color: darkgray;
+	text-decoration: underline;
+}
+
+#txtReg{
+	width: 200px;
+	border: none;
+	border-bottom-style: solid;
+	border-color: grey;
+	color: darkgoldenrod;
+	background-color: inherit;
+	background-color: lightgrey;
+	text-align: center;
+    outline-color: lightgrey;
+}
+
+#txtReg:focus{
+	width: 200px;
+	border: none;
+	border-bottom-style: solid;
+	border-color: grey;
+	color: darkgoldenrod;
+	background-color: inherit;
+	background-color: lightgrey;
+	text-align: center;
+	outline-color: lightgrey;
+}
+
+#txtFReg{
+	width: 200px;
+	border: none;
+	border-bottom-style: solid;
+	
+	border-color: grey;
+	color: darkgoldenrod;
+	background-color: inherit;
+	background-color: lightgrey;
+	margin-left: 20px;
+	
+}
+
+#errorName{
+	
+}
+
+#current{
+	text-decoration: underline;
+	color: darkgoldenrod;
+	
+}
+
+#btnNext{
+	Margin-left: 300px;
+	border-style: none;
+	border-bottom-style: solid;
+	background-color: inherit;
+	background-color: lightgrey;
+}
+
+#btnPrev{
+	border-style: none;
+	border-bottom-style: solid;
+	background-color: inherit;	
+	background-color: lightgrey;
+}
+
+#btnNext:hover, #btnPrev:Hover{
+	border-bottom-color: #085995;
+}
+
+.numOf{
+	Margin-left: 150px;
+	
+}
+
+#forgotten{
+	@Margin-left: 200px;
+	
+}
+
+#btnSubLog{
+	margin-Left: 0px;
+	border-style: none;
+	text-decoration: none;
+	color: #085995;
+	background-color: inherit;
+	background-color: lightgrey;
+}
+
+#Pass{
+	color: darkred;
+}
+
+#btnSub{
+	border-style: none;
+	text-decoration: none;
+	color: #085995;
+	background-color: inherit;
+	background-color: lightgrey;
+}
+
+#btnReq{
+	border-style: none;
+	text-decoration: none;
+	color: #085995;
+	background-color: inherit;
+}
+
+#btnSub:hover, #btnReq:hover{
+	text-decoration: none;
+	text-shadow: 1px 1px gold;
+}
+
+@media (max-width: 768px) {
+	#frmSearch {
+		margin-left: 125px;
+	}
+
+}
+	
+@media (max-width: 894px) {
+    section.middle-sectionBS{
+    background-color: rgb(232,228,226);
+    text-align: center;
+    border-right-color: lightgrey;
+    border-right-style: solid;
+    height: auto;
+    text-align: center;
+    border-right-width: 1px;
+    /*margin: 20px 100px 10px; */
+    /* background-color: Black; */
+     margin: 0px 0px 10px 50px;
+    }
+    
+    .panel-default{
+	    margin-left: -12px;
+        margin-right: -113px;
+	}
+    
+    #txtSearch{
+	    margin-bottom: 17px;
+	}
+	
+	#formReg{
+	    margin-right: -102px;
+	}
+	
+	#hServ{
+	    margin-right: -141px;
+        margin-left: -47px;
+	}
+	
+}
+
+
+/* All The Style For When Width Size is >894px */
+@media (max-width: 894px) {
+	
+/*
+	div.page-header
+	{
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+		
+	}
+*/
+	#hServ{
+	    margin-right: -141px;
+        margin-left: -47px;
+	}
+	
+	div.mini-header-div{
+	    margin: -21px 0px -2px 45px;
+	}
+	
+	.menu-items
+	{
+		display: inline;
+		
+	}
+	
+	nav.mini-menu
+	{
+		font-size: 15px;
+	}
+	
+	section.left-section{
+		
+	
+	}
+/*	
+	section.middle-section{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.main-activity
+	{
+		
+		
+	}
+	
+	div.first-footer
+	{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	
+	div.second-footer{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	section.footer-sec{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+*/
+	.footer-sec-detail{
+		text-align: center;
+	}
+	
+	.panel-body{
+		padding-left: 10px;
+		text-align: center;
+	}
+	
+	.panel-default{
+	    margin-left: -12px;
+        margin-right: -113px;
+	}
+	
+	#txtSearch{
+	    margin-bottom: 17px;
+	}
+	
+	#formReg{
+	    margin-right: -102px;
+	}
+	
+}
+
+@media (max-width: 300px) 
+{
+	#frmSearch{
+        margin-left: 25px;
+	}
+	
+	#txtSearch{
+		width: 120px;
+		height: inherit;
+		font-size: smaller;
+	}
+	
+}
+
+@media (min-width: 375px){
+    .panel-default{
+	    margin-left: -12px;
+        margin-right: -113px;
+	}
+	
+	#txtSearch{
+	    margin-bottom: 17px;
+	}
+	
+	#formReg{
+	    margin-right: -102px;
+	}
+	
+	#hServ{
+	    margin-right: -141px;
+        margin-left: -47px;
+	}
+}
+
+
+
+@media (max-width: 400px) 
+{
+	#frmSearch{
+	    margin-left: 35px;
+	}
+	
+	#txtSearch{
+		width: 160px;
+		font-size: smaller;
+	}
+	
+	
+}
+
+
+
+@media (max-width: 500px) 
+{
+	#frmSearch{
+	    margin-left: 35px;
+	}
+	
+	#txtSearch{
+		width: 160px;
+		font-size: smaller;
+	}
+	
+	#hServ{
+	    margin-right: -141px;
+        margin-left: -47px;
+	}
+
+	#bg{
+		background-image: none;
+	}
+	
+	div.page-header{
+		
+		font-size: 30px;
+	}
+	
+	div.first-footer{
+		margin: 20px 0px -6px 0px;
+		padding-left: 65px;
+	}
+	
+	div.second-footer{
+	    margin: 20px 100px 13px 123px;
+        padding-right: 0px;
+        padding-left: 36px;
+	}
+	
+	.panel-body{
+		padding-left: 10px;
+		text-align: center;
+	}
+	
+	.panel-default{
+	    margin-left: -12px;
+        margin-right: -113px;
+	}
+	
+	#txtSearch{
+	    margin-bottom: 17px;
+	}
+	
+	#tblprop{
+		width: auto;
+	}
+	
+	#pp{
+		height: 80;
+		width: 80;
+	}
+	
+	section.middle-section{
+	   margin: 0px 0px -3px -10px;
+		/*margin-left: 9px;
+		padding-left: 6px;
+		padding-right: 6px;
+		*/
+	}
+	
+	section.middle-sectionBS{
+	    margin: 0px 0px -5px -11px;
+        padding-left: 88px;
+        padding-right: 0px;
+	}
+	
+	
+	div.profile{
+		border-style: solid;
+		border-radius: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	div.profile-card{
+		border-style: solid;
+		border-radius: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	#txtReg{
+		width: auto;
+	}
+	
+	#btnNext{
+		margin: 2px;
+	}
+	
+	#formReg{
+	    margin-right: -102px;
+	}
+	
+}
